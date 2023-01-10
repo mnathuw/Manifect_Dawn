@@ -2,12 +2,24 @@
   "sections": {
     "main": {
       "type": "list-collections",
+      "blocks": {
+        "25697c91-9311-42e2-b3b1-a9491dd0d225": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "25697c91-9311-42e2-b3b1-a9491dd0d225"
+      ],
       "settings": {
         "style": "product",
         "aspect_ratio": 1,
         "grid_collection": 2,
         "grid": 4,
-        "rows": 3
+        "rows": 1
       }
     },
     "1664459547976316a4": {
@@ -19,10 +31,23 @@
         "product_recently_limit": 6,
         "product_recently_minimum": 3
       }
+    },
+    "6dcf4391-6d61-4975-9072-c524e0395029": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured Products",
+        "collection": "",
+        "grid": 3,
+        "rows": 1,
+        "bg": "palette--light bg--neutral",
+        "show_view_all": false
+      }
     }
   },
   "order": [
     "main",
-    "1664459547976316a4"
+    "1664459547976316a4",
+    "6dcf4391-6d61-4975-9072-c524e0395029"
   ]
 }
